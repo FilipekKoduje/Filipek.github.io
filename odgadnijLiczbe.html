@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Odgadnij Liczbę</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+
+        <button onclick="zmienTlo()" class="test">Zmień kolor tła</button>
+
+        <div class="container">
+            <h3>Myślę o pewnej liczbie między 1-100.</h3>
+            <h3>Jesteś w stanie ją odgadnąć?</h3>
+
+            <input type="text" placeholder="Liczba" id="guess"><br>
+            <button onclick="play()" id="my_btn">SPRAWDŹ</button>
+
+            <p id="message1">Liczba prób: 0</p>
+            <p id="message2">Sprawdzone liczby: Żadna</p>
+            <p id="message3"></p>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>

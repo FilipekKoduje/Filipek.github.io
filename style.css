@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    height: 100vh;
+    background: linear-gradient(30deg, #4756c6, #ae67f1, #e9b6ed)
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(54, 156, 14);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+}
+
+h3 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body p {
+    text-align: center;
+}
+
+#gierka {
+    text-align: center;
+}
+
+footer {
+    color: #aaa;
+    font-size: 14px;
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+    
+}
+
+.test {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    margin: 15px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: solid 5px lightgray;
+    background: white;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin: 75px;
+    padding: 25px;
+}
+
+input[type="text"] {
+    width: 90px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+}
+
+#my_btn {
+    width: 160px;
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: gray;
+    margin: 10px 0;
+}
+
+/* background: linear-gradient(60deg, #dd6825, #eeba2a, #e7fc74) */
